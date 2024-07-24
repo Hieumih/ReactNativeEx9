@@ -1,0 +1,36 @@
+{
+  "name": "bai9restaurantapp",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
+    "@expo/metro-runtime": "~3.2.1",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.10.1",
+    "@react-navigation/stack": "^6.4.1",
+    "babel-preset-expo": "~11.0.0",
+    "expo": "^51.0.22",
+    "expo-linear-gradient": "~13.0.2",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.3",
+    "react-native-basic-carousel": "^1.1.2",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-pager-view": "6.3.0",
+    "react-native-slider-intro": "^2.1.14",
+    "react-native-web": "~0.19.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "react-native-svg-transformer": "^1.5.0"
+  },
+  "private": true
+}
