@@ -12,6 +12,7 @@ import SearchIcon from '../../assets/search.svg'
 import SettingIcon from '../../assets/setting.svg'
 import BellIcon from '../../assets/bell.svg'
 import PinMapIcon from '../../assets/pinMap.svg'
+import Rectangle1 from "../components/Rectangle1";
 
 const HomeScreen = ({ navigation }) => {
 
@@ -20,7 +21,7 @@ const HomeScreen = ({ navigation }) => {
     return (
         <ScrollView style={styles.view}>
             <View>
-                <LinearGradient style={styles.rectangle1} colors={gradientColor}>
+                <Rectangle1 style={styles.rectangle1} colors={gradientColor}>
                     <View style={styles.randomRectangle1}>
                         <Image source={require('../../assets/avatar.png')} style={styles.avatar} />
                         <View style={styles.shipLocal}>
@@ -36,7 +37,7 @@ const HomeScreen = ({ navigation }) => {
                             <BellIcon style={{width: 20, height: 20}} />
                         </View>
                     </View>
-                </LinearGradient>
+                </Rectangle1>
                 <View style={styles.search}>
                     <SearchIcon style={{width: 22, height: 22}} />
                     <TextInput style={styles.ipt} placeholderTextColor={color.color2} placeholder="Search your food"></TextInput>
@@ -73,7 +74,7 @@ const HomeScreen = ({ navigation }) => {
             </ScrollView>
             
             <SafeAreaView style={{marginTop: 15, height: 250}}>
-                <BannerSlider />
+                {/* <BannerSlider /> */}
             </SafeAreaView>
             <View>
                 <Text>Popular Item</Text>

@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
         shadowColor: '#000',
         shadowOpacity: 0.1,
         shadowRadius: 14,
-        elevation: '2dp',
+        elevation: 1,
     },
     btn: {
         flex: 1,
